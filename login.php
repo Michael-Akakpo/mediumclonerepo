@@ -2,7 +2,7 @@
 session_start();
 
 // Database connection
-$conn = new mysqli("localhost", "root", "", "mediumclone");
+$conn = new mysqli("sql8.freesqldatabase.com", "sql8769522", "sql8769522");
 
 // Check connection
 if ($conn->connect_error) {
